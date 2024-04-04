@@ -1,0 +1,296 @@
+* {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans',sans-serif;
+    background: #ffffff;
+}
+
+.wrapper {
+    width: 1100px;
+    margin: auto;
+    position: relative;
+}
+
+.logo a {
+    font-size: 50px;
+    font-weight: 800;
+    float: left;
+    font-family: courier;
+    color: #008DDA;
+}
+
+.menu {
+    float: right;
+}
+
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background: #ffffff;
+    z-index: 1;
+    border: 1px solid #008DDA;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+    padding: 10px;
+}   
+
+nav ul li a {
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    padding: opx 16px 0px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+section {
+    margin: auto;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.kolom {
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+
+.kolom .deskirpsi {
+    font-size:  20px;
+    font-weight: bold;
+    font-family: 'comic sans ms';
+    color: #008DDA;
+}
+
+h2 {
+    font-family: 'comic sans ms';
+    font-weight: 800;
+    font-size: 45px;
+    margin-bottom: 20px;
+    color: #008DDA;
+    width: 100%;
+    line-height: 50px;
+}
+
+a.tbl-biru {
+    background: #5356FF;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding:  15px 20px 15px 20px;
+    color: #ffffff;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.tbl-biru:hover {
+    background: #F7418F;
+    text-decoration: none;
+}
+
+a.tbl-pink {
+    background: #F7418F;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding:  15px 20px 15px 20px;
+    color: #ffffff;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.tbl-pink:hover {
+    background: #5356FF;
+    text-decoration: none;
+}
+
+p {
+    margin: 10px 0px 10px 0px;
+    padding: 10px 0px 10px 0px;
+}
+
+.tengah {
+    text-align: center;
+    width: 100%;
+}
+
+.Hobi-list {
+    width: 100%;
+    position: relative;
+    display: flex;
+}
+
+.kartu-Hobi {
+    width: auto;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.kartu-Hobi h1{
+    position: absolute;
+    top: 99%;
+}
+
+.kartu-Hobi2 {
+    width: auto;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    width: 70%;
+    align-items: center;
+}
+
+.kartu-Hobi2 h1{
+    position: absolute;
+    top: 99%;
+}
+
+.kartu-Hobi img {
+    width: 50%;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.kartu-Hobi2 img {
+    width: 50%;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.kartu-Hobi p {
+    font-family: 'comic sans ms';
+    font-weight: 800;
+    font-size: 25px;
+    text-align: center;
+    color: #008DDA;
+}
+
+.matkul {  
+    text-align: center;
+    border: 2px solid black;
+    position: relative;
+    left: 11%;
+}
+
+.matkuls h1 { 
+    color: #008DDA;
+    font-size: 50px;
+    padding: 0% 51% 2% 51%;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+}
+
+.signup-container {
+    max-width: 400px;
+    margin: 100px auto;
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.signup-container h2 {
+    text-align: center;
+    color: #333;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.footer {
+    text-align: center;
+    width: 10%;
+    padding:  50px 0px 50px 0px;
+    margin-top: 10px;
+}
+
+.profil-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.profil-img {
+    width: 400px; /* Set the width to 100px */
+    height: 500px; /* Set the height to 100px */
+    object-fit: cover; /* Maintain aspect ratio and cover the container */
+    border-radius: 2cm;
+}
+
+.footer {
+    background-color: #008DDA;
+    color: #fff;
+    padding: 15px 0;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer__copy {
+    font-size: 1rem;
+}

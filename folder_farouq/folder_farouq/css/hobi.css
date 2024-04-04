@@ -1,0 +1,73 @@
+.hobi {
+    margin-top: auto;
+    margin-bottom: 50px;
+}
+.Hobi-list {
+    width: 100%;
+    position: relative;
+    display: flex;
+}
+
+.kartu-Hobi {
+    width: auto;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.kartu-Hobi h1{
+    position: absolute;
+    top: 99%;
+}
+
+.kartu-Hobi2 {
+    width: auto;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    width: 70%;
+    align-items: center;
+}
+
+.kartu-Hobi2 h1{
+    position: absolute;
+    top: 99%;
+}
+
+.kartu-Hobi img {
+    width: 100%;
+    border-radius: 5cm;
+    padding: 10px;
+}
+
+.kartu-Hobi2 img {
+    width: 80%;
+    border-radius: 5cm;
+    padding: 10px;
+}
+
+.kartu-Hobi p {
+    font-family: 'comic sans ms';
+    font-weight: 800;
+    font-size: 25px;
+    text-align: center;
+    color: #008DDA;
+}
+
+.footer {
+    background-color: #008DDA;
+    color: #fff;
+    padding: 15px 0;
+    text-align: center;
+    margin-top: 7%;
+}
+
+.footer__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer__copy {
+    font-size: 1rem;
+}
